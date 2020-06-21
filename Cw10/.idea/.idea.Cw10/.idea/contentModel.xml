@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Marek\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Marek\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Cw10.875160371.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Marek\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Marek\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Cw10.875160371.00" t="ExcludeRecursive" />
     <e p="C:\Users\Marek\Desktop\Wyklad10\cw10\cw10" t="IncludeFlat">
       <e p="Api" t="IncludeRecursive">
         <e p="Api.csproj" t="IncludeRecursive" />
@@ -10,8 +10,13 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="EnrollmentController.cs" t="Include" />
           <e p="StudentController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="EnrollmentModel.cs" t="Include" />
+          <e p="PromotionModel.cs" t="Include" />
+          <e p="StudentModel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -25,18 +30,23 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
         <e p="ApplicationModule.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DTO" t="Include">
+          <e p="EnrollmentDto.cs" t="Include" />
+          <e p="StudentDto.cs" t="Include" />
+        </e>
         <e p="Entities" t="Include">
           <e p="Enrollment.cs" t="Include" />
           <e p="Student.cs" t="Include" />
           <e p="Studies.cs" t="Include" />
         </e>
+        <e p="IEnrollmentsRepository.cs" t="Include" />
         <e p="IStudentRepository.cs" t="Include" />
+        <e p="IStudiesRepository.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.1" t="Include">
@@ -48,12 +58,14 @@
           <e p="StudentQueryResult.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
-          <e p="StudentQueryService.cs" t="Include" />
+          <e p="EnrollmentsService.cs" t="Include" />
+          <e p="StudentService.cs" t="Include" />
         </e>
       </e>
       <e p="Cw10.sln" t="IncludeFlat" />
       <e p="Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="EnrollmentRepository.cs" t="Include" />
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
         <e p="InfrastructureModule.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -63,7 +75,10 @@
             </e>
           </e>
         </e>
+        <e p="Profiles" t="Include" />
         <e p="StudentContext.cs" t="Include" />
+        <e p="StudentRepository.cs" t="Include" />
+        <e p="StudiesRepository.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
